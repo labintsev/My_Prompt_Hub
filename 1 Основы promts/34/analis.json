@@ -1,0 +1,20 @@
+{"Authorization": "Bearer $IAM_TOKEN",
+
+    "model_uri": "art://b1g2o4vgaeucdusn62sj/yandex-art/latest",
+    "messages": [
+        {
+            "file_path": "yg9ed0kjs68ne9zjghzw11pttrm183em.png",
+            "weight": 1
+        }, 
+                {
+            "file_path": "diana.png",
+            "weight": 1
+        }
+    ],
+    "generation_options": {
+        "mime_type": "image/jpeg",
+        "seed": 3982857505653912
+    }
+
+} 
+// https://llm.api.cloud.yandex.net:443/foundationModels/v1/imageGenerationAsync
